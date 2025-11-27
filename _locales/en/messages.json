@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Gemini URL Prompt - Auto Prefill",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Automatically prefill the Gemini input box via URL parameters (e.g., ?prompt=...) to boost your productivity.",
+    "description": "The description of the extension"
+  }
+}

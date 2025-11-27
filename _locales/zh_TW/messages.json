@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Gemini URL Prompt - 自動填入提示詞",
+    "description": "擴充功能名稱"
+  },
+  "appDesc": {
+    "message": "透過網址參數 (例如 ?prompt=...) 自動將文字預填入 Gemini 的對話框，快速啟動 AI 任務。",
+    "description": "擴充功能描述"
+  }
+}
