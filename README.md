@@ -31,7 +31,7 @@ Simply append ?prompt= followed by your text to the Gemini URL.
 
 **Example:**
 
-[https://gemini.google.com/app?prompt=Write](https://gemini.google.com/app?prompt=Write) a poem about coding
+[https://gemini.google.com/app?prompt=Write a poem about coding](https://gemini.google.com/app?prompt=Write a poem about coding) 
 
 **Alternative parameter:**
 
