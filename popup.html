@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 280px;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 13px;
+      color: #202124;
+      margin: 0;
+    }
+    h1 {
+      font-size: 16px;
+      margin: 0 0 12px 0;
+      color: #1a73e8;
+    }
+    .usage {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    .usage code {
+      display: block;
+      background: #e8eaed;
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      word-break: break-all;
+      margin-top: 8px;
+    }
+    .models {
+      margin-top: 12px;
+    }
+    .model {
+      display: flex;
+      align-items: center;
+      padding: 6px 0;
+      border-bottom: 1px solid #e8eaed;
+    }
+    .model:last-child {
+      border-bottom: none;
+    }
+    .model-key {
+      background: #1a73e8;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      margin-right: 8px;
+      min-width: 20px;
+      text-align: center;
+    }
+    .model-name {
+      font-weight: 500;
+    }
+    .default {
+      font-size: 10px;
+      color: #5f6368;
+      margin-left: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gemini URL Prompt</h1>
+  <div class="usage">
+    <strong>Usage:</strong>
+    <code>gemini.google.com/app?q=1 your prompt</code>
+  </div>
+  <div class="models">
+    <div class="model">
+      <span class="model-key">1</span>
+      <span class="model-name">Fast</span>
+    </div>
+    <div class="model">
+      <span class="model-key">2</span>
+      <span class="model-name">Thinking</span>
+      <span class="default">(default)</span>
+    </div>
+    <div class="model">
+      <span class="model-key">3</span>
+      <span class="model-name">Pro</span>
+    </div>
+  </div>
+  <p style="font-size:11px;color:#5f6368;margin:12px 0 0 0;">
+    Start prompt with 1/2/3 + space, or omit for Thinking.
+  </p>
+</body>
+</html>
